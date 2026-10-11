@@ -1,21 +1,21 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Modul1_GudangOOP.Models
+namespace Modul2_GudangOOP.Models
 {
-    internal class Barang
+    public class Barang
     {
         public string KodeBarang;
         public string NamaBarang;
         private int jumlahStok;
         public string Kategori { get; set; }
-        public string JumlahStok;
+        public int JumlahStok
         {
             get => jumlahStok;
             set
             {
-                if (value >= 0) jumlahstok = value;
+                if (value >= 0) jumlahStok = value;
             }
         }
         public string Status => JumlahStok > 50 ? "Aman" : "Perlu Reorder";
