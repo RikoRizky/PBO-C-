@@ -36,7 +36,7 @@ class Program
         // Kasus 1: Barang Elektronik dengan garansi yang masih berlaku
         // Pembelian 15 Januari 2026 dengan masa garansi 24 bulan (berlaku hingga Jan 2028)
         Garansi garansiScanner = new Garansi(24, new DateTime(2026, 1, 15));
-        BarangElektronik elk1 = new BarangElektronik("ELK001", "Handheld Scanner Pro", 25, garansiScanner);
+        BarangElektronik elk1 = new BarangElektronik("ELK001", "Kulkas", 25, garansiScanner);
 
         elk1.CetakInfo();
         Console.WriteLine(elk1.EvaluasiResiko());
@@ -57,7 +57,7 @@ class Program
         // Kasus 2: Barang Elektronik dengan garansi yang sudah habis
         // Pembelian 10 Mei 2024 dengan masa garansi 12 bulan (berlaku hingga Mei 2025)
         Garansi garansiPrinter = new Garansi(12, new DateTime(2024, 5, 10));
-        BarangElektronik elk2 = new BarangElektronik("ELK002", "Barcode Thermal Printer", 60, garansiPrinter);
+        BarangElektronik elk2 = new BarangElektronik("ELK002", "TV", 60, garansiPrinter);
 
         elk2.CetakInfo();
         Console.WriteLine(elk2.EvaluasiResiko());
