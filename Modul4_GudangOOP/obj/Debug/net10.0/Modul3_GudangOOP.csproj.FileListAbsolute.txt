@@ -1,0 +1,15 @@
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/Modul3_GudangOOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/Modul3_GudangOOP.AssemblyInfoInputs.cache
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/Modul3_GudangOOP.AssemblyInfo.cs
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/Modul3_GudangOOP.csproj.CoreCompileInputs.cache
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/Modul3_GudangOOP.sourcelink.json
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/bin/Debug/net10.0/Modul3_GudangOOP
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/bin/Debug/net10.0/Modul3_GudangOOP.deps.json
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/bin/Debug/net10.0/Modul3_GudangOOP.runtimeconfig.json
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/bin/Debug/net10.0/Modul3_GudangOOP.dll
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/bin/Debug/net10.0/Modul3_GudangOOP.pdb
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/Modul3_GudangOOP.dll
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/refint/Modul3_GudangOOP.dll
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/Modul3_GudangOOP.pdb
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/Modul3_GudangOOP.genruntimeconfig.cache
+/Users/rikorizky/PBO-C-/Modul3_GudangOOP/obj/Debug/net10.0/ref/Modul3_GudangOOP.dll

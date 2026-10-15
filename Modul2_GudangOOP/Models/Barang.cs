@@ -1,36 +1,43 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Modul1_GudangOOP.Models
+namespace Modul2_GudangOOP.Models
 {
-    internal class Barang
+    public class Barang
     {
+        // Field & Property
         public string KodeBarang;
         public string NamaBarang;
-        private int jumlahStok;
         public string Kategori { get; set; }
-        public string JumlahStok;
+
+        // Field private untuk enkapsulasi stok
+        private int jumlahStok;
+
+        // Property dengan validasi (tidak boleh negatif)
+        public int JumlahStok
         {
             get => jumlahStok;
             set
             {
-                if (value >= 0) jumlahstok = value;
+                if (value >= 0) jumlahStok = value;
             }
         }
+
+        // Property read-only untuk status
         public string Status => JumlahStok > 50 ? "Aman" : "Perlu Reorder";
 
-        public Barang(string kode, string nama, int stok, string kategori)
+        // Constructor 4 parameter
+        public Barang(string kodeBarang, string namaBarang, int stokAwal, string kategori)
         {
-            KodeBarang = kode;
-            NamaBarang = nama;
-            JumlahStok = stok;
+            KodeBarang = kodeBarang;
+            NamaBarang = namaBarang;
+            JumlahStok = stokAwal; // Melewati validasi property
             Kategori = kategori;
         }
 
+        // Method menampilkan info
         public void TampilkanInfo()
         {
-            Console.WriteLine($"[{KodeBarang}] {NamaBarang} - Stok: {JumlahStok}, Kategori:{Kategori}");
+            Console.WriteLine($"Kode: {KodeBarang} | Nama: {NamaBarang} | Kategori: {Kategori} | Stok: {JumlahStok} | Status: {Status}");
         }
     }
 }
