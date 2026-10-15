@@ -7,7 +7,6 @@ namespace Modul4_GudangOOP.Models
         public int DayaListrik { get; set; }
         public Garansi? Garansi { get; set; }
 
-        // Constructor standar dengan objek Garansi
         public BarangElektronik(string kode, string nama, int daya, Garansi? garansi = null)
             : base(kode, nama)
         {
@@ -15,7 +14,6 @@ namespace Modul4_GudangOOP.Models
             Garansi = garansi;
         }
 
-        // Overload constructor langsung dengan parameter masa garansi & tanggal beli
         public BarangElektronik(string kode, string nama, int daya, int masaGaransiBulan, DateTime tanggalBeli)
             : base(kode, nama)
         {
@@ -23,7 +21,6 @@ namespace Modul4_GudangOOP.Models
             Garansi = new Garansi(masaGaransiBulan, tanggalBeli);
         }
 
-        // Overload constructor lama dari Modul 3 agar kode sebelumnya tetap kompatibel
         public BarangElektronik(string kode, string nama, int stok, string kategori, int daya)
             : base(kode, nama)
         {
