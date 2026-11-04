@@ -1,6 +1,6 @@
 using System;
 
-namespace Modul7_GudangOOP.Models
+namespace Modul7_GudangOOP.Interfaces
 {
     public interface IPeriksaKadaluarsa
     {

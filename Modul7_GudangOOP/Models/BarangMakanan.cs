@@ -1,4 +1,5 @@
 using System;
+using Modul7_GudangOOP.Interfaces;
 
 namespace Modul7_GudangOOP.Models
 {

@@ -8,7 +8,10 @@ namespace Modul7_GudangOOP.Services
     {
         public void Cetak(Barang barang)
         {
-            Console.WriteLine($"[Kode: {barang.KodeBarang}] Nama: {barang.NamaBarang} | Stok: {barang.JumlahStok} ({barang.Status}) | Kategori: {barang.Kategori}");
+            Console.WriteLine($"Kode: {barang.KodeBarang}");
+            Console.WriteLine($"Nama: {barang.NamaBarang}");
+            Console.WriteLine($"Stok: {barang.JumlahStok}");
+            Console.WriteLine($"Kategori: {barang.Kategori}");
         }
     }
 }

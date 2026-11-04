@@ -10,11 +10,11 @@
         "projectUniqueName": "/Users/rikorizky/PBO-C-/Modul7_GudangOOP/Modul7_GudangOOP.csproj",
         "projectName": "Modul7_GudangOOP",
         "projectPath": "/Users/rikorizky/PBO-C-/Modul7_GudangOOP/Modul7_GudangOOP.csproj",
-        "packagesPath": "/tmp/.nuget/packages/",
+        "packagesPath": "/Users/rikorizky/.nuget/packages/",
         "outputPath": "/Users/rikorizky/PBO-C-/Modul7_GudangOOP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/tmp/.nuget/NuGet/NuGet.Config"
+          "/Users/rikorizky/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
