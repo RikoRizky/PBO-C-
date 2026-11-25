@@ -1,0 +1,29 @@
+@model List<Modul9_GudangWebApp.Models.Barang>
+@{
+    ViewData["Title"] = "Daftar Barang";
+}
+
+<h2>@ViewData["Title"]</h2>
+<p>Ini adalah halaman awal untuk modul manajemen barang gudang.</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Kode</th>
+            <th>Nama Barang</th>
+            <th>Stok</th>
+            <th>Kategori</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.KodeBarang</td>
+                <td>@item.NamaBarang</td>
+                <td>@item.JumlahStok</td>
+                <td>@item.Kategori</td>
+            </tr>
+        }
+    </tbody>
+</table>
